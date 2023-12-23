@@ -1,0 +1,11 @@
+name: Android CI/CD
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting
+        run: echo "Hello Ahmed!"
+      - name: End Flow
+        run: echo "Done-Bye"
+    
